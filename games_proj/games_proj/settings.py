@@ -131,3 +131,11 @@ STATIC_ROOT = BASE_DIR / "static_root"
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+# Game files
+
+GAMES = {
+    "Circle Touch": "gamefolder2.apk",
+    "Point Collector": "webbuild.apk",
+}
