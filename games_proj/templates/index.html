@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ETSBI Games</title>
+</head>
+<body>
+	<table>
+		<tr>
+			<th>Name</th>
+			<th>View Count</th>
+		</tr>
+		{% for game in games %}
+			<tr>
+				<td><a href="/game/{{ game.pk }}/">{{ game.name }}</a></td>
+				<td>{{ game.watch_set.count }}</td>
+			</tr>
+		{% endfor %}
+	</table>
+</body>
+</html>
