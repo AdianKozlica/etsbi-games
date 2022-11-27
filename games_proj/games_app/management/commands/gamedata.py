@@ -6,5 +6,5 @@ class Command(BaseCommand):
 	help = "Fills database with games"
 
 	def handle(self, *args, **options):
-		for name,path in settings.GAMES.items():
-			Game.objects.get_or_create(name=name,apk=path)
+		for name,(path,developer) in settings.GAMES.items():
+			Game.objects.get_or_create(name=name,apk=path,developer=developer)

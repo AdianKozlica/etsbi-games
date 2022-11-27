@@ -136,6 +136,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Game files
 
 GAMES = {
-    "Circle Touch": "gamefolder2.apk",
-    "Point Collector": "webbuild.apk",
+    "Circle Touch": ("gamefolder2.apk","Adian Kozlica"),
+    "Point Collector": ("webbuild.apk","Nedzad Djonlagic"),
 }
