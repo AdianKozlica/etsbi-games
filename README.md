@@ -4,3 +4,8 @@ In this project we made a website which shows games (sorted by view count) made 
 
 Adian Kozlica - Backend <br>
 YourFBIAgent - Frontend
+
+Tools and libraries used in this project:
+- https://pypi.org/project/pygame/
+- https://pypi.org/project/pygbag/
+- https://fingerprint.com/
